@@ -1,0 +1,35 @@
+body {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.botao:hover {
+    background-color: #1d4ed8;
+}
+
+.botao:focus {
+    background-color: #16a34a;
+    transform: scale(1.12);
+    box-shadow: 0 12px 20px rgba(22, 163, 74, 0.4);
+    outline: none;
+}
+
+.botao:focus-visible {
+    outline: 3px solid #60f385;
+    outline-offset: 3px;
+}
